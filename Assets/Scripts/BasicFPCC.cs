@@ -121,7 +121,6 @@ public class BasicFPCC : MonoBehaviour
     [Space(5)]
     public bool cursorActive = false;                // cursor state
 
-    
     void Start()
     {
         Initialize();
@@ -417,6 +416,8 @@ public class BasicFPCC : MonoBehaviour
         }
         #endif
     }
+
+    
 
     // lock/hide or show/unlock cursor
     public void SetLockCursor( bool doLock )

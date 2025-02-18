@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 708796484223262147}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.799495, y: 2.5238025, z: 34.1646}
+  m_LocalPosition: {x: 6.67, y: 2.5238025, z: 151.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ai: {fileID: 4158477461747348569}
-  player: {fileID: 0}
+  player: {fileID: 8703546995341088640, guid: 32a4d36015759ce41ab1f5cb51ddb4a6, type: 3}
   playerCam: {fileID: 0}
   jumpScareCam: {fileID: 1790660510139418197}
   aiSpd: 6

@@ -23,18 +23,22 @@ public class AngelAI : MonoBehaviour
     private new Renderer renderer;
     private LayerMask layerMask;
     private bool viewObstructed;
+    private bool firstLook;
 
-    void Start()
+    void Awake()
     {
         renderer = GetComponent<Renderer>();
         layerMask = LayerMask.GetMask("Obstacle", "Player");
+        player = GameObject.Find("Player").transform;
+        playerCam = player.GetChild(0).GetComponent<Camera>();
+        firstLook = false;
     }
 
     void FixedUpdate()
     {
         RaycastHit hit;
         //if direct line of sight from angel to player is obstructed
-        if(Physics.Raycast(transform.position + transform.forward, player.position - transform.position, out hit, Mathf.Infinity, layerMask))
+        if(Physics.Raycast(transform.position + transform.forward, player.position - transform.position, out hit, Mathf.Infinity, layerMask) && Physics.Raycast(transform.position, player.position - transform.position, out hit, Mathf.Infinity, layerMask))
         {
             Debug.DrawRay(transform.position, player.position * hit.distance, Color.red);
             //Debug.Log("Did hit");
@@ -49,6 +53,27 @@ public class AngelAI : MonoBehaviour
     }
 
     void Update()
+    {
+        if (!firstLook)
+        {
+            FirstLook();
+        }
+        if (firstLook)
+        {
+            Movement();
+        }
+    }
+
+    void FirstLook()
+    {
+        Plane[] planes = GeometryUtility.CalculateFrustumPlanes(playerCam);
+        if (GeometryUtility.TestPlanesAABB(planes, renderer.bounds) && !viewObstructed)
+        {
+            firstLook = true;
+        }
+    }
+
+    void Movement()
     {
         Plane[] planes = GeometryUtility.CalculateFrustumPlanes(playerCam);
         float distance = Vector3.Distance(transform.position, player.position);

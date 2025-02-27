@@ -250,7 +250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   castingMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 4294967295
   cameraTx: {fileID: 3199527574037582820}
   playerGFX: {fileID: 1544305130973373478}
   useLocalInputs: 1

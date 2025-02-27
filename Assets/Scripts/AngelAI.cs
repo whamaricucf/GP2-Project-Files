@@ -18,35 +18,130 @@ public class AngelAI : MonoBehaviour
     public Transform player;
     Vector3 dest;
     public Camera playerCam, jumpScareCam;
-    public float aiSpd, catchDist, jumpScareTime;
+    public float aiSpd, catchDist, jumpScareTime, curDist, initCatchDist;
     public string deathScene;
     private new Renderer renderer;
-    private LayerMask layerMask;
-    private bool viewObstructed;
-    private bool firstLook;
+    public LayerMask layerMask;
+    public bool viewObstructed;
+    public bool firstLook, inView;
 
     void Awake()
     {
         renderer = GetComponent<Renderer>();
-        layerMask = LayerMask.GetMask("Obstacle", "Player");
+        layerMask = LayerMask.GetMask("Obstacle");
         player = GameObject.Find("Player").transform;
         playerCam = player.GetChild(0).GetComponent<Camera>();
         firstLook = false;
+        viewObstructed = false;
+        initCatchDist = 3f;
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         RaycastHit hit;
-        //if direct line of sight from angel to player is obstructed
-        if(Physics.Raycast(transform.position + transform.forward, player.position - transform.position, out hit, Mathf.Infinity, layerMask) && Physics.Raycast(transform.position, player.position - transform.position, out hit, Mathf.Infinity, layerMask))
+
+        Vector3 Fwd = transform.position + transform.forward * 2f;
+        Vector3 FwdLeft = transform.position + transform.forward * 1.5f + transform.right * -1.5f;
+        Vector3 FwdRight = transform.position + transform.forward * 1.5f + transform.right * 1.5f;
+        Vector3 Cntr = transform.position;
+        Vector3 Left = transform.position + transform.right * -2f;
+        Vector3 Right = transform.position + transform.right * 2f;
+
+        Vector3 PlrFwd = player.position + player.forward * 2f;
+        Vector3 PlrFwdLeft = player.position + player.forward * 1.5f + player.right * -1.5f;
+        Vector3 PlrFwdRight = player.position + player.forward * 1.5f + player.right * 1.5f;
+        Vector3 PlrCntr = player.position;
+        Vector3 PlrLeft = player.position + player.right * -2f;
+        Vector3 PlrRight = player.position + player.right * 2f;
+
+        bool FwdRaycast = Physics.Raycast(Fwd, PlrFwd - Fwd, out hit, curDist, layerMask);
+        bool FwdLeftRaycast = Physics.Raycast(FwdLeft, PlrFwdRight - FwdLeft, out hit, curDist, layerMask);
+        bool FwdRightRaycast = Physics.Raycast(FwdRight, PlrFwdLeft - FwdRight, out hit, curDist, layerMask);
+        bool CntrRaycast = Physics.Raycast(Cntr, PlrCntr - Cntr, out hit, curDist, layerMask);
+        bool LeftRaycast = Physics.Raycast(Left, PlrRight - Left, out hit, curDist, layerMask);
+        bool RightRaycast = Physics.Raycast(Right, PlrLeft - Right, out hit, curDist, layerMask);
+
+        //If each of these raycasts are hitting an Obstacle object, the view is considered "obstructed"
+        if (FwdRaycast && CntrRaycast && RightRaycast && LeftRaycast && FwdLeftRaycast && FwdRightRaycast)
         {
-            Debug.DrawRay(transform.position, player.position * hit.distance, Color.red);
+            if (FwdRaycast)
+            {
+                Debug.DrawRay(Fwd, PlrFwd - Fwd, Color.red);
+            }
+            if (FwdLeftRaycast)
+            {
+                Debug.DrawRay(FwdLeft, PlrFwdRight - FwdLeft, Color.red);
+            }
+            if (FwdRightRaycast)
+            {
+                Debug.DrawRay(FwdRight, PlrFwdLeft - FwdRight, Color.red);
+            }
+            if (CntrRaycast)
+            {
+                Debug.DrawRay(Cntr, PlrCntr - Cntr, Color.red);
+            }
+            if (LeftRaycast)
+            {
+                Debug.DrawRay(Left, PlrRight - Left, Color.red);
+            }
+            if (RightRaycast)
+            {
+                Debug.DrawRay(Right, PlrLeft - Right, Color.red);
+            }
             //Debug.Log("Did hit");
+            //Debug.Log(hit.collider);
             viewObstructed = true;
         }
         else
         {
-            Debug.DrawRay(transform.position, player.position - transform.position, Color.yellow);
+            if (!FwdRaycast)
+            {
+                Debug.DrawRay(Fwd, PlrFwd - Fwd, Color.green);
+            }
+            else
+            {
+                Debug.DrawRay(Fwd, PlrFwd - Fwd, Color.yellow);
+            }
+            if (!FwdLeftRaycast)
+            {
+                Debug.DrawRay(FwdLeft, PlrFwdRight - FwdLeft, Color.green);
+            }
+            else
+            {
+                Debug.DrawRay(FwdLeft, PlrFwdRight - FwdLeft, Color.yellow);
+            }
+            if (!FwdRightRaycast)
+            {
+                Debug.DrawRay(FwdRight, PlrFwdLeft - FwdRight, Color.green);
+            }
+            else
+            {
+                Debug.DrawRay(FwdRight, PlrFwdLeft - FwdRight, Color.yellow);
+            }
+            if (!CntrRaycast)
+            {
+                Debug.DrawRay(Cntr, PlrCntr - Cntr, Color.green);
+            }
+            else
+            {
+                Debug.DrawRay(Cntr, PlrCntr - Cntr, Color.yellow);
+            }
+            if (!LeftRaycast)
+            {
+                Debug.DrawRay(Left, PlrRight - Left, Color.green);
+            }
+            else
+            {
+                Debug.DrawRay(Left, PlrRight - Left, Color.yellow);
+            }
+            if (!RightRaycast)
+            {
+                Debug.DrawRay(Right, PlrLeft - Right, Color.green);
+            }
+            else
+            {
+                Debug.DrawRay(Right, PlrLeft - Right, Color.yellow);
+            }
             //Debug.Log("Did not hit");
             viewObstructed = false;
         }
@@ -54,11 +149,12 @@ public class AngelAI : MonoBehaviour
 
     void Update()
     {
+        InViewCheck();
         if (!firstLook)
         {
             FirstLook();
         }
-        if (firstLook)
+        else
         {
             Movement();
         }
@@ -66,28 +162,42 @@ public class AngelAI : MonoBehaviour
 
     void FirstLook()
     {
-        Plane[] planes = GeometryUtility.CalculateFrustumPlanes(playerCam);
-        if (GeometryUtility.TestPlanesAABB(planes, renderer.bounds) && !viewObstructed)
+        if (inView && !viewObstructed)
         {
             firstLook = true;
         }
     }
 
-    void Movement()
+    void InViewCheck()
     {
         Plane[] planes = GeometryUtility.CalculateFrustumPlanes(playerCam);
+        if (GeometryUtility.TestPlanesAABB(planes, renderer.bounds))
+        {
+            inView = true;
+        }
+        else
+        {
+            inView = false;
+        }
+    }
+
+    void Movement()
+    {
         float distance = Vector3.Distance(transform.position, player.position);
+        curDist = distance;
         //Debug.Log(distance);
-        if (GeometryUtility.TestPlanesAABB(planes, renderer.bounds) && !viewObstructed)
+        if (inView && !viewObstructed)
         {
             ai.speed = 0;
             ai.SetDestination(transform.position);
+            catchDist = initCatchDist - 0.55f;
         }
         else
         {
             ai.speed = aiSpd;
             dest = player.position;
             ai.destination = dest;
+            catchDist = initCatchDist;
         }
         if (distance <= catchDist)
         {

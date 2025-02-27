@@ -196,7 +196,7 @@ public class BasicFPCC : MonoBehaviour
     void ProcessMovement()
     {
         // - variables -
-        float vScale = 1f; // for calculating GFX scale (optional)
+        //float vScale = 1f; // for calculating GFX scale (optional)
         float h = defaultHeight;
         float nextSpeed = walkSpeed;
         Vector3 calc; // used for calculations
@@ -300,7 +300,7 @@ public class BasicFPCC : MonoBehaviour
 
             // offset camera
             calc = cameraTx.localPosition;
-            calc.y = ( controller.height / defaultHeight ) + cameraStartY - ( defaultHeight * 0.5f );
+            calc.y = ( controller.height / defaultHeight ) + cameraStartY - ( defaultHeight * 0.15f );
             cameraTx.localPosition = calc;
 
             // calculate offset
@@ -313,12 +313,12 @@ public class BasicFPCC : MonoBehaviour
             ceilingOffsetY = heightFactor + controller.height - ( defaultHeight - ceilingCheckY );
 
             // scale gfx (optional)
-            if ( playerGFX )
+            /*if ( playerGFX )
             {
                 calc = playerGFX.localScale;
                 calc.y = Mathf.Lerp( calc.y, vScale, 5f * Time.deltaTime );
                 playerGFX.localScale = calc;
-            }
+            }*/
         }
 
         // - Slipping Jumping Gravity - 

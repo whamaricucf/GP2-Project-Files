@@ -65,8 +65,8 @@ ModelImporter:
       name: arms_Holding
       takeName: arms_idle
       internalID: 5466233399505771278
-      firstFrame: 21
-      lastFrame: 50
+      firstFrame: 25
+      lastFrame: 45
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

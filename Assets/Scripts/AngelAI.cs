@@ -27,7 +27,7 @@ public class AngelAI : MonoBehaviour
 
     void Awake()
     {
-        renderer = GetComponent<Renderer>();
+        renderer = this.gameObject.transform.GetChild(0).GetChild(0).GetComponent<Renderer>();
         layerMask = LayerMask.GetMask("Obstacle");
         player = GameObject.Find("Player").transform;
         playerCam = player.GetChild(0).GetComponent<Camera>();

@@ -8,6 +8,7 @@ public class Interactor : MonoBehaviour
     public LayerMask interactableLayerMask;
     UnityEvent onInteract;
     private bool hasMedusa;
+    public GameObject beforePickup, afterPickup, angel;
     public UnityEvent onInteractMedusa;
     public UnityEvent onInteractFountain;
 
@@ -33,6 +34,9 @@ public class Interactor : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     onInteract.Invoke();
+                    beforePickup.SetActive(false);
+                    afterPickup.SetActive(true);
+                    angel.SetActive(true);
                     hasMedusa = true;
                 }
             }
@@ -42,6 +46,9 @@ public class Interactor : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     onInteract.Invoke();
+                    beforePickup.SetActive(true);
+                    afterPickup.SetActive(false);
+                    angel.SetActive(false);
                     hasMedusa = false;
                 }
             }

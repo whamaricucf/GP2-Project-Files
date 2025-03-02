@@ -1,0 +1,2085 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.37f1 (340ba89e4c23) revision 3410856'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32693 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/College/UCF/Fourth Sem/Game Production/Project 2/Local Unity/AnimBranch2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59839
+Successfully changed project path to: D:/College/UCF/Fourth Sem/Game Production/Project 2/Local Unity/AnimBranch2
+D:/College/UCF/Fourth Sem/Game Production/Project 2/Local Unity/AnimBranch2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30496] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 1765128181 [EditorId] 1765128181 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-41OFUSE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30496] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 1765128181 [EditorId] 1765128181 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-41OFUSE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 8.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.37f1 (340ba89e4c23)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/College/UCF/Fourth Sem/Game Production/Project 2/Local Unity/AnimBranch2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.7260
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.016518 seconds.
+- Loaded All Assemblies, in  0.324 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.241 seconds
+Domain Reload Profiling: 562ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (120ms)
+		LoadAssemblies (97ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (104ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (242ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (190ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.635 seconds
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.509 seconds
+Domain Reload Profiling: 1141ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (369ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (126ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (510ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (366ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3173 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (57.6 KB). Loaded Objects now: 3633.
+Memory consumption went from 121.2 MB to 121.1 MB.
+Total: 3.275400 ms (FindLiveObjects: 0.290700 ms CreateObjectMapping: 0.214300 ms MarkObjects: 2.660300 ms  DeleteObjects: 0.108800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 85829.355227 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(bc3c3ff4221f11747a47374f8ed4ba79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.unity using Guid(bc3c3ff4221f11747a47374f8ed4ba79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '94cbbc6e37f0dbd4b109c564f3ea69be') in 0.002826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.406 seconds
+Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.824 seconds
+Domain Reload Profiling: 1227ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (255ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (824ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (345ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3165 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.5 KB). Loaded Objects now: 3636.
+Memory consumption went from 119.9 MB to 119.8 MB.
+Total: 2.663400 ms (FindLiveObjects: 0.263600 ms CreateObjectMapping: 0.157400 ms MarkObjects: 2.195500 ms  DeleteObjects: 0.046200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.411 seconds
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.795 seconds
+Domain Reload Profiling: 1204ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (256ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (796ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (342ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3166 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.6 KB). Loaded Objects now: 3639.
+Memory consumption went from 120.1 MB to 120.1 MB.
+Total: 3.537600 ms (FindLiveObjects: 0.638900 ms CreateObjectMapping: 0.270400 ms MarkObjects: 2.565000 ms  DeleteObjects: 0.062600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.391 seconds
+Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.805 seconds
+Domain Reload Profiling: 1193ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (805ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (335ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (230ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3166 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.6 KB). Loaded Objects now: 3642.
+Memory consumption went from 120.1 MB to 120.1 MB.
+Total: 3.178400 ms (FindLiveObjects: 0.260800 ms CreateObjectMapping: 0.187200 ms MarkObjects: 2.677600 ms  DeleteObjects: 0.052100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.405 seconds
+Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.843 seconds
+Domain Reload Profiling: 1244ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (193ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (843ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 5.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3166 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (31.6 KB). Loaded Objects now: 3645.
+Memory consumption went from 120.1 MB to 120.1 MB.
+Total: 2.936600 ms (FindLiveObjects: 0.272400 ms CreateObjectMapping: 0.184400 ms MarkObjects: 2.422700 ms  DeleteObjects: 0.056100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.534 seconds
+Refreshing native plugins compatible for Editor in 2.93 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.506 seconds
+Domain Reload Profiling: 2037ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (84ms)
+				TypeCache.ScanAssembly (73ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1507ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1046ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (882ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Universal Render Pipeline/Particles/Simple Lit': fallback shader 'Universal Render Pipeline/Particles/Unlit' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (6.9 MB). Loaded Objects now: 5473.
+Memory consumption went from 185.1 MB to 178.2 MB.
+Total: 5.867700 ms (FindLiveObjects: 0.477300 ms CreateObjectMapping: 0.325800 ms MarkObjects: 2.457700 ms  DeleteObjects: 2.606200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 421.439320 seconds.
+  path: Assets/3D Models/Bush.fbx
+  artifactKey: Guid(b64225fafcbf47a40a2d0a641f760165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Bush.fbx using Guid(b64225fafcbf47a40a2d0a641f760165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eafa0ae7a422d88dc85aeaf1e0e7370a') in 0.268170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scripts/AngelAI.cs
+  artifactKey: Guid(2db2540b2ad2e544fbf942de7a65e9a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/AngelAI.cs using Guid(2db2540b2ad2e544fbf942de7a65e9a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '176e3c9f1ac2d22f3379ad830edf858e') in 0.020241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Bush.prefab
+  artifactKey: Guid(d7129694ea4b0404d922a6af9153ff08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Bush.prefab using Guid(d7129694ea4b0404d922a6af9153ff08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '90c1f7f3f72843cce4a178ad54cced18') in 0.023311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Maze&Angel Spawn.prefab
+  artifactKey: Guid(4203a554dc1420045b2a14ad8d4f41ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Maze&Angel Spawn.prefab using Guid(4203a554dc1420045b2a14ad8d4f41ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5b12ed7fe2d5d3dfca2b909611bf4906') in 0.016352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(d195a06cd5a8acc4188faf116b0a6f28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Scene 2.unity using Guid(d195a06cd5a8acc4188faf116b0a6f28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1539dd01854058bdbe74874e22da4ab3') in 0.016245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Models/MedusaHeadHeld.prefab
+  artifactKey: Guid(3825fde69b0161546b06e98038c76820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/MedusaHeadHeld.prefab using Guid(3825fde69b0161546b06e98038c76820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bd3e8b947579d93d8e0ca8507307ac1e') in 0.023763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Outer Walls.prefab
+  artifactKey: Guid(2f1afefe73d9a1e48b211b51c69e666a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Outer Walls.prefab using Guid(2f1afefe73d9a1e48b211b51c69e666a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '762d67bdbe7733ecdf5e99a5c72a8d6f') in 0.019513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 424
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/Flower Pot.prefab
+  artifactKey: Guid(7bd3c617ae9366c4aa24de31837c782a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Flower Pot.prefab using Guid(7bd3c617ae9366c4aa24de31837c782a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a425de0dbdeadbd98242244bbba6986f') in 0.019966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/Materials/Tex Plane_standardSurface1_BaseColor_sRGB.1001.png
+  artifactKey: Guid(8ab164cf67b0958459137d7dc9a38968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Tex Plane_standardSurface1_BaseColor_sRGB.1001.png using Guid(8ab164cf67b0958459137d7dc9a38968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '88ad217bca2141e05a460053ea6a19e2') in 0.061987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Models/Materials/internal_ground_ao_texture.jpeg
+  artifactKey: Guid(7203408cbd5c7c747b832207976e0310) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/internal_ground_ao_texture.jpeg using Guid(7203408cbd5c7c747b832207976e0310) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9556122f78d81a580a0d6ae98062ef21') in 0.025214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Hallway and Alcoves.prefab
+  artifactKey: Guid(e4ae14aebd7ce2644be2ed63efee93a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Hallway and Alcoves.prefab using Guid(e4ae14aebd7ce2644be2ed63efee93a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '285dd31bf440a149055d765a6a8d0069') in 0.013038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 320
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Prefabs/Alcove.prefab
+  artifactKey: Guid(753296b8ac7fe624286881972bee1790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Alcove.prefab using Guid(753296b8ac7fe624286881972bee1790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '32d4cb63577e5c4f01ac972ead157d7d') in 0.013261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/Materials/GraniteWall_roughness.png
+  artifactKey: Guid(c9d7b4301804a3648923a555d2320d7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/GraniteWall_roughness.png using Guid(c9d7b4301804a3648923a555d2320d7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '968b9e9c168eb80a9d129ca990dc360c') in 0.047692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/3D Models/Materials/Tex Tile_standardSurface1_BaseColor_sRGB.1001 1.png
+  artifactKey: Guid(0992487bcc3bf1e4d8ee4d7eed90f6b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Tex Tile_standardSurface1_BaseColor_sRGB.1001 1.png using Guid(0992487bcc3bf1e4d8ee4d7eed90f6b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bcac574301789ef2729a71f6f7340170') in 0.039020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3D Models/Temple Facade/Temple_standardSurface1_BaseColor_sRGB.1001.png
+  artifactKey: Guid(48a9bb876b0ed15478c9dfbe497ca004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Temple Facade/Temple_standardSurface1_BaseColor_sRGB.1001.png using Guid(48a9bb876b0ed15478c9dfbe497ca004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '369b2a1e182de0529436d4e96cd688d5') in 0.027612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D Models/Materials/Tex Plane_standardSurface1_Normal_Raw.1001 2.png
+  artifactKey: Guid(742637d60e60a884b83a8195cbee7277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Tex Plane_standardSurface1_Normal_Raw.1001 2.png using Guid(742637d60e60a884b83a8195cbee7277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bd0f36f83eff8d1a4e6a2733c8fd9734') in 0.057415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/3D Models/Materials/MainCharacter_standardSurface1_OcclusionRoughnessMetallic_Raw.1001.png
+  artifactKey: Guid(22378c821d17baf40bb88f686e339f13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/MainCharacter_standardSurface1_OcclusionRoughnessMetallic_Raw.1001.png using Guid(22378c821d17baf40bb88f686e339f13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c3366721fbf83065a44f1f1ec116b202') in 0.025726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantasy Skybox FREE/Readme.txt
+  artifactKey: Guid(53399a9960b4d94419f1b8fa47c146b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Readme.txt using Guid(53399a9960b4d94419f1b8fa47c146b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eb5524a6509380427669d1d3a52fdf43') in 0.016662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Prefabs/Ground.prefab
+  artifactKey: Guid(c87235d698684da40bd3ffef7618c3a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Ground.prefab using Guid(c87235d698684da40bd3ffef7618c3a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce8c1ddba7a6d1477a5413f3d8129fa3') in 0.020556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D Models/Torch/Torch.ma
+  artifactKey: Guid(30508959bd8262e4eac7f2b746156ad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Torch/Torch.ma using Guid(30508959bd8262e4eac7f2b746156ad8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '91a738278ef0a6e0d011486d818f0255') in 0.073068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3D Models/Materials/GladiatorStatue_standardSurface1_Normal_Raw.1001.png
+  artifactKey: Guid(1ad35d4db1e7e5d4f95b82fe8d5c0fe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/GladiatorStatue_standardSurface1_Normal_Raw.1001.png using Guid(1ad35d4db1e7e5d4f95b82fe8d5c0fe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a48cefd04544073adef832843e83a8a1') in 0.030319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Models/Materials/Pillar_standardSurface1_BaseColor_sRGB.1001.png
+  artifactKey: Guid(8e8e11219be98f847a226cb17fc029e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Pillar_standardSurface1_BaseColor_sRGB.1001.png using Guid(8e8e11219be98f847a226cb17fc029e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2269e930b454c573c14be527c59611ce') in 0.021752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Models/Materials/Medusa_standardSurface1_BaseColor_sRGB.1001.png
+  artifactKey: Guid(b5d5a0eda7bcb584d8990ab6209eb470) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Medusa_standardSurface1_BaseColor_sRGB.1001.png using Guid(b5d5a0eda7bcb584d8990ab6209eb470) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8626534d8c9835f2fb9c7b54b6f14393') in 0.027928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D Models/Materials/GraniteWall_basecolor.png
+  artifactKey: Guid(88a1f2630a030c74783919e6ee32c621) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/GraniteWall_basecolor.png using Guid(88a1f2630a030c74783919e6ee32c621) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c711bd7ab8977457adb0ba7c30f83378') in 0.023876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'abb26b26afe2f23e035b16687e936d2d') in 0.012900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Models/MedusaHeadHeld.fbx
+  artifactKey: Guid(69b5a3652f62e3c4292fa74af03e0242) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/MedusaHeadHeld.fbx using Guid(69b5a3652f62e3c4292fa74af03e0242) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6b295d4061b0fe38c85936ad7fa1ff62') in 0.028764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Prefabs/Medusa.prefab
+  artifactKey: Guid(4a2ab3ed614c8ea4a8f8fcfbaf64e50e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Medusa.prefab using Guid(4a2ab3ed614c8ea4a8f8fcfbaf64e50e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '70e7c32b1dd3dba91a83b61e6e0aa4fe') in 0.020290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy Skybox FREE/ReleaseNotes.txt
+  artifactKey: Guid(f4bb2358699d96a43b3bfb9dcd59213f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/ReleaseNotes.txt using Guid(f4bb2358699d96a43b3bfb9dcd59213f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7a3e9cf9e2b8691cdfe918f393419cb8') in 0.014673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Pillar.prefab
+  artifactKey: Guid(615e13cac753b97468c7fc7fbe94358a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Pillar.prefab using Guid(615e13cac753b97468c7fc7fbe94358a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '61916e6d2f02c1c508a4e8a6f0603c09') in 0.024513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Models/Materials/Medusa_standardSurface1_Normal_Raw.1001.png
+  artifactKey: Guid(8e961556605261d4da35014b2f217643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Medusa_standardSurface1_Normal_Raw.1001.png using Guid(8e961556605261d4da35014b2f217643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '397d0173cde0743da2d12332edfbffa4') in 0.022945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3D Models/Materials/GraniteWall_normal.png
+  artifactKey: Guid(6b5b299e5c8532b439189611583b4253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/GraniteWall_normal.png using Guid(6b5b299e5c8532b439189611583b4253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1ec53849b00869e3f75139c286098656') in 0.032709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D Models/Temple Facade/Temple.ma
+  artifactKey: Guid(995c4f66fd3210146ad5802bbc223a5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Temple Facade/Temple.ma using Guid(995c4f66fd3210146ad5802bbc223a5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8d8753cf6a20e31b1e34e6389558ba81') in 0.046328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/PrototypeScene3/NavMesh-Ground.asset
+  artifactKey: Guid(2287115908d9fab46a14825df5e93ac8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/PrototypeScene3/NavMesh-Ground.asset using Guid(2287115908d9fab46a14825df5e93ac8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3c25c63fdf496c3694fdc38e664d9d6') in 0.021216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3D Models/Cracked Wall Textures/Cracked 1/Tex Plane_standardSurface1_BaseColor_sRGB.1001.png
+  artifactKey: Guid(69d31c8ccb8de7e4a8a5cdc2cacac199) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Cracked Wall Textures/Cracked 1/Tex Plane_standardSurface1_BaseColor_sRGB.1001.png using Guid(69d31c8ccb8de7e4a8a5cdc2cacac199) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '024555a803256ace1d9a6aa41cdbe6cb') in 0.025808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3D Models/Materials/Materials/GladiatorStatue_standardSurface1_BaseColor_sRGB.1001.mat
+  artifactKey: Guid(d86d482201845184db8f5f9642526ca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Materials/GladiatorStatue_standardSurface1_BaseColor_sRGB.1001.mat using Guid(d86d482201845184db8f5f9642526ca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ea5e711e8be83ef13f4872fad1b6a56f') in 0.021548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/3D Models/Materials/Materials/internal_ground_ao_texture.mat
+  artifactKey: Guid(88c13ba9944878945a57a8b81465f0f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Materials/internal_ground_ao_texture.mat using Guid(88c13ba9944878945a57a8b81465f0f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2d3b2a455ec355d2c828c615288e36c9') in 0.020220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Player 2.prefab
+  artifactKey: Guid(7b3b6547b1dbdc94aafa30ad4ff2146b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player 2.prefab using Guid(7b3b6547b1dbdc94aafa30ad4ff2146b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '745052bb37f6ede484cf2faeaf829b7b') in 0.015902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3D Models/Materials/Tex Plane_standardSurface1_OcclusionRoughnessMetallic_Raw.1001 3.png
+  artifactKey: Guid(cf7b3a5f8be06eb4bab355a48b2286a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Tex Plane_standardSurface1_OcclusionRoughnessMetallic_Raw.1001 3.png using Guid(cf7b3a5f8be06eb4bab355a48b2286a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '682c6c6b1284158026fc42fb04a8bc68') in 0.025514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/FlowerPot/Flower_standardSurface1_Normal.png
+  artifactKey: Guid(66b23c84d1ead8b41901f9ec84b8513e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/FlowerPot/Flower_standardSurface1_Normal.png using Guid(66b23c84d1ead8b41901f9ec84b8513e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5a69f62c6b44d53293d5401a596314b5') in 0.025947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Models/Materials/Tex Tile_standardSurface1_Normal_Raw.1001 1.png
+  artifactKey: Guid(3e0e93ff08282624eabc767156c5619c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Tex Tile_standardSurface1_Normal_Raw.1001 1.png using Guid(3e0e93ff08282624eabc767156c5619c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '118d6750e28c06f7960437bae3974fde') in 0.022445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3D Models/Materials/Pillar_standardSurface1_OcclusionRoughnessMetallic_Raw.1001 1.png
+  artifactKey: Guid(8a98d9863b1e9fa478b073dc512f3f1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Pillar_standardSurface1_OcclusionRoughnessMetallic_Raw.1001 1.png using Guid(8a98d9863b1e9fa478b073dc512f3f1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '49625d25b2d37efaddcdd5dc6dd074cd') in 0.028864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3D Models/MainCharacter.fbx
+  artifactKey: Guid(0480fd6c550cc9745a7ab49bb7e1e65e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/MainCharacter.fbx using Guid(0480fd6c550cc9745a7ab49bb7e1e65e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5a3bb0475fe8549a1eae3ae9f3e90cc5') in 0.022544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Prefabs/WeepingAngel.prefab
+  artifactKey: Guid(cb5db81180db7ac46ac65925fe54d278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/WeepingAngel.prefab using Guid(cb5db81180db7ac46ac65925fe54d278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e089e59317e030af3a0788b72da24ca7') in 0.012859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Demo with terrain.unity
+  artifactKey: Guid(594da9eac4a488a479b252ff922516d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Demo with terrain.unity using Guid(594da9eac4a488a479b252ff922516d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c771b2ec12deb20b2aebdfd1011384a4') in 0.013414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Models/Temple Facade/Temple_standardSurface1_OcclusionRoughnessMetallic_Raw.1001.png
+  artifactKey: Guid(069766ca537cf3c46ad7ee0063cc2cc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Temple Facade/Temple_standardSurface1_OcclusionRoughnessMetallic_Raw.1001.png using Guid(069766ca537cf3c46ad7ee0063cc2cc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fbed43472ec4ee4748bfb102d6be021b') in 0.022562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3D Models/Torch/TorchWall_standardSurface1_OcclusionRoughnessMetallic_Raw.1001.png
+  artifactKey: Guid(9bdbc21e079e48e478a2f31460ecbccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Torch/TorchWall_standardSurface1_OcclusionRoughnessMetallic_Raw.1001.png using Guid(9bdbc21e079e48e478a2f31460ecbccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'abd15cd59cc2541f7baa7e332d3c80c6') in 0.023406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3D Models/Torch/TorchWall.fbx
+  artifactKey: Guid(efe0378b2ac236e4daca023bfd18035a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Torch/TorchWall.fbx using Guid(efe0378b2ac236e4daca023bfd18035a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd866c5b838032dd1dec2448e975fb914') in 0.027500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/Interactor.cs
+  artifactKey: Guid(7ca4d85f551acc043b033afd066aa824) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Interactor.cs using Guid(7ca4d85f551acc043b033afd066aa824) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '07a631f02de16a50173c13f99c929275') in 0.013985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/zachs edited prefabs/Player.prefab
+  artifactKey: Guid(ddd16e16f0a70834c819c25f2cdef419) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/zachs edited prefabs/Player.prefab using Guid(ddd16e16f0a70834c819c25f2cdef419) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f851ad177feb976521318f598e186d27') in 0.011435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Demo without terrain.unity
+  artifactKey: Guid(12c6f44bbd4eef541a925ea029b57f07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Demo without terrain.unity using Guid(12c6f44bbd4eef541a925ea029b57f07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '47e9c0da244edc0beb7208e016b193b9') in 0.014613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D Models/Temple Facade/Temple_standardSurface1_Normal_Raw.1001.png
+  artifactKey: Guid(becf49e12b2dc254e8be1fc5192cb870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Temple Facade/Temple_standardSurface1_Normal_Raw.1001.png using Guid(becf49e12b2dc254e8be1fc5192cb870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '72f09691246ddd18734313b8e16bfcd9') in 0.025003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/PrototypeScene2/NavMesh-Ground 1.asset
+  artifactKey: Guid(7e21eafe5d6424349a9ab4831a10d5f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/PrototypeScene2/NavMesh-Ground 1.asset using Guid(7e21eafe5d6424349a9ab4831a10d5f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '170a7831e223bb7ca132f5355fcb2143') in 0.014908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/FlowerPot/Flower_standardSurface1_BaseColor.png
+  artifactKey: Guid(805111aa9731d0f439839a9951f13c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/FlowerPot/Flower_standardSurface1_BaseColor.png using Guid(805111aa9731d0f439839a9951f13c0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f76a83913f75dd2ab5329f57efe2af8d') in 0.022164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Materials/Fountain_standardSurface1_Normal_Raw.1001.png
+  artifactKey: Guid(c0d5e42dc9340994e89f620c5f35e9a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Fountain_standardSurface1_Normal_Raw.1001.png using Guid(c0d5e42dc9340994e89f620c5f35e9a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '71484f372228a6db9591ffd297267873') in 0.021236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Models/Materials/Tex Plane_standardSurface1_OcclusionRoughnessMetallic_Raw.1001.png
+  artifactKey: Guid(67268c5f8796e9f41bb10fd88f92fe49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Tex Plane_standardSurface1_OcclusionRoughnessMetallic_Raw.1001.png using Guid(67268c5f8796e9f41bb10fd88f92fe49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '10bc5c05641cfa09c3d513ed4949835e') in 0.020506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/BasicFPCC.cs
+  artifactKey: Guid(ce123ab2005eaf2459d4fbadfed52cd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/BasicFPCC.cs using Guid(ce123ab2005eaf2459d4fbadfed52cd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0b4c64c97da8786af2f56aba3a0530c2') in 0.016251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.mat
+  artifactKey: Guid(94caf2ba4ca5e46bfaba53afcc8778dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.mat using Guid(94caf2ba4ca5e46bfaba53afcc8778dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '387460eda1299d0f1b199929ba00f51e') in 0.019806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02.mat
+  artifactKey: Guid(8202c457dff32486ba5ae1f2f548d983) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02.mat using Guid(8202c457dff32486ba5ae1f2f548d983) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b90b747d1e27aa5968f0abefeea03cc3') in 0.017688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/3D Models/Materials/Materials/Tex Plane_standardSurface1_BaseColor_sRGB.1001.mat
+  artifactKey: Guid(7ce080415b41491418914d469ac50dc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Materials/Tex Plane_standardSurface1_BaseColor_sRGB.1001.mat using Guid(7ce080415b41491418914d469ac50dc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f00a1ca93e25e53ddfacfae6ca39ad28') in 0.018387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.mat
+  artifactKey: Guid(f8a60d169ab8a46b09c9b01a3e51601f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03.mat using Guid(f8a60d169ab8a46b09c9b01a3e51601f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd2b091a283af840dcace3588a33db8ed') in 0.017740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.mat
+  artifactKey: Guid(e1ec0e2320d2d4fb9a393769378ce0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.mat using Guid(e1ec0e2320d2d4fb9a393769378ce0a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '614dbdafa7e7fb242e365319f6552f91') in 0.018041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018510 seconds.
+  path: Assets/3D Models/Materials/Materials/MainCharacter_standardSurface1_BaseColor_sRGB.1001.mat
+  artifactKey: Guid(d876c3bb1a5f0e84a8c9f7da1143951c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Materials/MainCharacter_standardSurface1_BaseColor_sRGB.1001.mat using Guid(d876c3bb1a5f0e84a8c9f7da1143951c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b18c00e81eb499ac6e29300ef9944c2c') in 0.019330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.020035 seconds.
+  path: Assets/3D Models/Torch/Tall Torch/TorchFloor_standardSurface1_BaseColor_sRGB.1001.png
+  artifactKey: Guid(2d9090303fa6b2c448cbf09aa50b3012) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Torch/Tall Torch/TorchFloor_standardSurface1_BaseColor_sRGB.1001.png using Guid(2d9090303fa6b2c448cbf09aa50b3012) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6b6a854ed0dc86130ca1563bc7ba22fb') in 0.024881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01_Moonless.mat
+  artifactKey: Guid(1065b432639a84123a07ea43fe5ba4c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01_Moonless.mat using Guid(1065b432639a84123a07ea43fe5ba4c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7709551d4d2f73e1e4e3dd8c9d03147e') in 0.016041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05.png
+  artifactKey: Guid(3b9c8413bb7d59b4dbd832a9122271cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05.png using Guid(3b9c8413bb7d59b4dbd832a9122271cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dc70738044c7eab7084eb5515de360eb') in 0.024148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06_Sunless.mat
+  artifactKey: Guid(5c8d5031ce45e4962818ca2b5426a8cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06_Sunless.mat using Guid(5c8d5031ce45e4962818ca2b5426a8cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '84f5a0867842326c97bae507afcde593') in 0.016488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02.png
+  artifactKey: Guid(e60c8653c33d3da4d8f660c15214d3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02.png using Guid(e60c8653c33d3da4d8f660c15214d3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '74f60a4899498994d0a93514773bc52c') in 0.018198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Models/Materials/GraniteWall_metallic.png
+  artifactKey: Guid(d39f0b6657d53f24bb4e8a160b2ad405) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/GraniteWall_metallic.png using Guid(d39f0b6657d53f24bb4e8a160b2ad405) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6595b5f39b46f9f26de513d4cf639f52') in 0.023061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/3D Models/Materials/GraniteWall_height.png
+  artifactKey: Guid(22a3c4bf2135edd42834149269ebd423) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/GraniteWall_height.png using Guid(22a3c4bf2135edd42834149269ebd423) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '90cbd46bd10e1b5bd9ceba2868df635a') in 0.027337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Models/Temple Facade/Temple.fbx
+  artifactKey: Guid(3b6aeadb9595cb54f8a4696501d333a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Temple Facade/Temple.fbx using Guid(3b6aeadb9595cb54f8a4696501d333a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7904160ffdd4630a5552f40fe63e3f13') in 0.024707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D Models/Materials/MainCharacter_standardSurface1_BaseColor_sRGB.1001.png
+  artifactKey: Guid(ac35176ffad7435489cd8badc2dbcdaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/MainCharacter_standardSurface1_BaseColor_sRGB.1001.png using Guid(ac35176ffad7435489cd8badc2dbcdaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '45f9858f5bcc2397c04006bbbb6a0818') in 0.027372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03_Sunless.mat
+  artifactKey: Guid(8f2c8ef98c47442d4b0e1896539bf7f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03_Sunless.mat using Guid(8f2c8ef98c47442d4b0e1896539bf7f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd96dc324ed9ceaf0ea9dce9eabc7c858') in 0.013855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/Pillar.fbx
+  artifactKey: Guid(6c2239fda2355874e866d06a4b5fbbf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Pillar.fbx using Guid(6c2239fda2355874e866d06a4b5fbbf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb807089e1c1e944298c4fdf370677d7') in 0.024961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.png
+  artifactKey: Guid(88c467166db994146961f1ecc5fc214e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_02.png using Guid(88c467166db994146961f1ecc5fc214e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '54fee1e1cf2200cd3ca39d7f3cc6969c') in 0.018888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D Models/Materials/Bush_lambert2_Normal_Raw.1001.png
+  artifactKey: Guid(dc177eaab37ee16478ef92610be6adad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Bush_lambert2_Normal_Raw.1001.png using Guid(dc177eaab37ee16478ef92610be6adad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9dfd3f1d7e309e0571cc978b509740a9') in 0.021019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Cracked Wall 3 Piece.prefab
+  artifactKey: Guid(3d00abb0b391a7f45a761dc8e7c7981c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Cracked Wall 3 Piece.prefab using Guid(3d00abb0b391a7f45a761dc8e7c7981c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '944c221f6e1901ffe848da1e6a4feed3') in 0.016943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3D Models/Materials/Bush_lambert2_OcclusionRoughnessMetallic_Raw.1001.png
+  artifactKey: Guid(77f63742801e23e4ba717f0260a471b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Bush_lambert2_OcclusionRoughnessMetallic_Raw.1001.png using Guid(77f63742801e23e4ba717f0260a471b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cc4925531a3f427197915f66fe64515c') in 0.023890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Pillar Variant.prefab
+  artifactKey: Guid(dd6a66bfe7169804594ca0e5532759a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Pillar Variant.prefab using Guid(dd6a66bfe7169804594ca0e5532759a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2078829d31d6b83ab01a8a8980ae9154') in 0.019688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/PrototypeScene3/NavMesh-Ground 1.asset
+  artifactKey: Guid(529613efa487b47408c18f1f9fa5f519) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/PrototypeScene3/NavMesh-Ground 1.asset using Guid(529613efa487b47408c18f1f9fa5f519) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce5659b64e15f385fd96a1d97243d740') in 0.016242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3D Models/Cracked Wall Textures/Cracked 2/Tex Plane_standardSurface1_OcclusionRoughnessMetallic_Raw.1001.png
+  artifactKey: Guid(3cf6cc5ee8e5aff41948d3cea17219f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Cracked Wall Textures/Cracked 2/Tex Plane_standardSurface1_OcclusionRoughnessMetallic_Raw.1001.png using Guid(3cf6cc5ee8e5aff41948d3cea17219f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fceb17f9a9d0e7f201b381dc07d3a255') in 0.028426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night_Moonless.mat
+  artifactKey: Guid(1cc6e6796f833a94f94e6d794ca654c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Night_Moonless.mat using Guid(1cc6e6796f833a94f94e6d794ca654c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3978f7fc52090f96e93097d88f162c8') in 0.028420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.mat
+  artifactKey: Guid(56c9ed5ee739a324e8d8bdb9613f4890) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.mat using Guid(56c9ed5ee739a324e8d8bdb9613f4890) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4d1be7bab6f63fa771c87e97236a318b') in 0.024892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.png
+  artifactKey: Guid(20f8339484595a64b81579493040f0a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.png using Guid(20f8339484595a64b81579493040f0a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8bdc03d91f72e8c72c4e31e91088add0') in 0.023974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.mat
+  artifactKey: Guid(44d0573bf6d91e447b62f3aff840f2ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.mat using Guid(44d0573bf6d91e447b62f3aff840f2ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3cadf1a63cc36c413b78f37501f5e877') in 0.018564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night.mat
+  artifactKey: Guid(6eecb3bb77b3f7a43a504fceda3b0b5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night.mat using Guid(6eecb3bb77b3f7a43a504fceda3b0b5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fa7c95b40ff57a5f2b40e79209ca71ca') in 0.019314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.mat
+  artifactKey: Guid(7b0f2096b49ccfb4f8b47c8084d650fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.mat using Guid(7b0f2096b49ccfb4f8b47c8084d650fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '75c001976c3e874bcd16880cf8c95d1e') in 0.017466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Rainy.mat
+  artifactKey: Guid(b5a27fa4b11bfb24cbc6daff3802c229) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Rainy.mat using Guid(b5a27fa4b11bfb24cbc6daff3802c229) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b0e91c1d221a21787b6be41a624308ea') in 0.023222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night.png
+  artifactKey: Guid(323f1ea1bce78fe4c90b2286fa1997e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night.png using Guid(323f1ea1bce78fe4c90b2286fa1997e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e1f28982c60d481b3f1f3da155f1cffe') in 0.023994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/3D Models/Materials/Tex Plane_standardSurface1_BaseColor_sRGB.1001 1.png
+  artifactKey: Guid(bef362325648bb34e8a3a877682d0505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Tex Plane_standardSurface1_BaseColor_sRGB.1001 1.png using Guid(bef362325648bb34e8a3a877682d0505) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'adf14fc0f8e88174ade4f68525957771') in 0.028452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scripts/MazeAngelSpawn.cs
+  artifactKey: Guid(4fe917af09d0dcd46b29459eb4af91e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/MazeAngelSpawn.cs using Guid(4fe917af09d0dcd46b29459eb4af91e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9d46a1b4ab84b8267722673279710c8e') in 0.013719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunrise.mat
+  artifactKey: Guid(023808db2bfa00d44929aa2176d29c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Sunrise.mat using Guid(023808db2bfa00d44929aa2176d29c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0ea51faaac9a10869d0084a27c44b7d') in 0.022530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/Scene 2/NavMesh-Ground 1.asset
+  artifactKey: Guid(9c5139a1d32e6e945851ffe126f58d81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Scene 2/NavMesh-Ground 1.asset using Guid(9c5139a1d32e6e945851ffe126f58d81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5f6bfd03c3e69361e556b85086b89c05') in 0.016852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/WeepingAngelCap.prefab
+  artifactKey: Guid(1f74ff12d95839d438ac6220d6c525bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/WeepingAngelCap.prefab using Guid(1f74ff12d95839d438ac6220d6c525bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '741a123c335f8bdf8cb5768d2273070e') in 0.014016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Scene 2/NavMesh-Ground.asset
+  artifactKey: Guid(30611b31fff29964589cd8ac3696d93d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Scene 2/NavMesh-Ground.asset using Guid(30611b31fff29964589cd8ac3696d93d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7c1e5869aeb0d6ebc986a7e3ed75f6a9') in 0.015378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Bushes.prefab
+  artifactKey: Guid(44b41e659edb2ad428433877931c8a70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Bushes.prefab using Guid(44b41e659edb2ad428433877931c8a70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9b9ad2346ef184f6a01818186ec88153') in 0.020155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 599
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day_Sunless.png
+  artifactKey: Guid(e2c576b6d07638b468b5ba303a3a07cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day_Sunless.png using Guid(e2c576b6d07638b468b5ba303a3a07cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6838710c7c1abe288f632f0efab2f876') in 0.025538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day.mat
+  artifactKey: Guid(9ca22510633fbfd4399f1704cd9d5c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Day.mat using Guid(9ca22510633fbfd4399f1704cd9d5c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c3e0a44d00acc9376ceed2526090b794') in 0.016792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.mat
+  artifactKey: Guid(e0a21ebc98cee4e46bbae873ec0be703) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.mat using Guid(e0a21ebc98cee4e46bbae873ec0be703) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d86de0629710f6c300d7c0628703e7d') in 0.017229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night_Moonless.png
+  artifactKey: Guid(6185794ad33085a4a9f8446781cb8f15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Night_Moonless.png using Guid(6185794ad33085a4a9f8446781cb8f15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '689ce60260cf2b306672f7b79ff49891') in 0.026743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.png
+  artifactKey: Guid(5dd1dab73acb80a4ca4a200b35ea95e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.png using Guid(5dd1dab73acb80a4ca4a200b35ea95e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7fcf88b0995958f0b520dd852bead73c') in 0.020765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.png
+  artifactKey: Guid(f5aa48695cf2eae40a79ff8630af2aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.png using Guid(f5aa48695cf2eae40a79ff8630af2aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd640fbba8f792879cc93f950b4ac455d') in 0.024130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.png
+  artifactKey: Guid(72dbfaf2e11e92744a2ff15822b9079f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.png using Guid(72dbfaf2e11e92744a2ff15822b9079f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ee1ed9eed5c335d73d37ec79f7cddbe') in 0.024901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Models/Temple Facade/Materials/Temple_standardSurface1_BaseColor_sRGB.1001.mat
+  artifactKey: Guid(971f08378899b6a4482cdafabeb5149f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Temple Facade/Materials/Temple_standardSurface1_BaseColor_sRGB.1001.mat using Guid(971f08378899b6a4482cdafabeb5149f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5f38bdf94c23fad9878cb3a81dbb9573') in 0.018089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.png
+  artifactKey: Guid(a81552b25f3b36b43b82a6c5daf6e098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night_Moonless.png using Guid(a81552b25f3b36b43b82a6c5daf6e098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '661e218f872786bf7947c0a80eb6bb49') in 0.022836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.mat
+  artifactKey: Guid(aed657681c6812845bb7736c343b5e9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.mat using Guid(aed657681c6812845bb7736c343b5e9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a814b50d24c4e06ff925b88ab2ef7f0c') in 0.017692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Textures (Lightmaps)/LightingData.asset
+  artifactKey: Guid(9235e21aad383004ba4815536366ba54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Textures (Lightmaps)/LightingData.asset using Guid(9235e21aad383004ba4815536366ba54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fd3f76b072c8904427a51957c9a7c837') in 0.019660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Textures (Terrain)/Texture_Rock_Diffuse.png
+  artifactKey: Guid(5749f76eaefd4464d864cb20ae8451aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Textures (Terrain)/Texture_Rock_Diffuse.png using Guid(5749f76eaefd4464d864cb20ae8451aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f25004748535ef0102a30ab43d8365cc') in 0.028416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day_Sunless.png
+  artifactKey: Guid(268c93021d7cf59469304bd4e244f156) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day_Sunless.png using Guid(268c93021d7cf59469304bd4e244f156) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3c3f999d88b27710d853bba3091c6d51') in 0.022768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Textures (Terrain)/Texture_Dirt_Normal.png
+  artifactKey: Guid(6372a4abc4700ef4aad94d04602e89bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Textures (Terrain)/Texture_Dirt_Normal.png using Guid(6372a4abc4700ef4aad94d04602e89bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dfe5c2747fe95f9d23494ebd3e60c639') in 0.028788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Models/Animations/AllAnimations/Gladiator and MC/MC arms/ArmsPrefabNew.prefab
+  artifactKey: Guid(1cbf69410c1234b499f8652103217c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Animations/AllAnimations/Gladiator and MC/MC arms/ArmsPrefabNew.prefab using Guid(1cbf69410c1234b499f8652103217c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2f7b7dae9addff41432a504c877b108d') in 0.022808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day.mat
+  artifactKey: Guid(0d5771081eb9abb43b1792b52260d914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day.mat using Guid(0d5771081eb9abb43b1792b52260d914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0426002b0b1c68a78046ffaa5588f792') in 0.016398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Models/Animations/AllAnimations/Gladiator and MC/Active Gladiator/OLDGladiatorACTIVEPrefab 1.prefab
+  artifactKey: Guid(9fd2d693d9fd436438ee2f2ce3f76d3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Animations/AllAnimations/Gladiator and MC/Active Gladiator/OLDGladiatorACTIVEPrefab 1.prefab using Guid(9fd2d693d9fd436438ee2f2ce3f76d3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a705dbadaed614c673df8f2c1d6c542a') in 0.014137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3D Models/Animations/AllAnimations/Gladiator and MC/Static Glad/GladiatorStaticPrefab.prefab
+  artifactKey: Guid(760cb5131f263b24b8219e452472435c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Animations/AllAnimations/Gladiator and MC/Static Glad/GladiatorStaticPrefab.prefab using Guid(760cb5131f263b24b8219e452472435c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+The AnimationClip 'Gladiator_Static_Idle' used by the Animation component 'GladiatorStaticPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2087]
+
+ -> (artifact id: 'd0b140a8d755d2a4f73ba743b016e1a2') in 0.024187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 101
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Textures (Lightmaps)/Lightmap-0_comp_dir.png
+  artifactKey: Guid(c7ea5ea2a4fb47b419c0eba8ac36b9aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Textures (Lightmaps)/Lightmap-0_comp_dir.png using Guid(c7ea5ea2a4fb47b419c0eba8ac36b9aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd31643e0325bae5e8ef58260107dc75e') in 0.021370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Textures (Terrain)/Brush_Grass_02.png
+  artifactKey: Guid(5d4b367f0702b4b46a16ba3b67281419) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Textures (Terrain)/Brush_Grass_02.png using Guid(5d4b367f0702b4b46a16ba3b67281419) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f7e9eab1ba794693973e2e05e6031622') in 0.027751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.png
+  artifactKey: Guid(787c830ffbe38b14a9c7bcf39669cdfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.png using Guid(787c830ffbe38b14a9c7bcf39669cdfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e8f298b18f84bda3dc9d4826fcdcc4d') in 0.029422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3D Models/Animations/AllAnimations/Gladiator and MC/MC arms/Arms4arms_idle3.fbx
+  artifactKey: Guid(f869f3f4b37006147841ab4d7828ccd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Animations/AllAnimations/Gladiator and MC/MC arms/Arms4arms_idle3.fbx using Guid(f869f3f4b37006147841ab4d7828ccd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd98562af3c6a455ceec6fbd251ffdd7f') in 0.031795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Textures (Terrain)/Brush_Grass_01.png
+  artifactKey: Guid(e3970f24555e12a46b75cdf5140ff23e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Textures (Terrain)/Brush_Grass_01.png using Guid(e3970f24555e12a46b75cdf5140ff23e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '631e8fb77bec40456a907e3044beccf7') in 0.022913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Models/Torch/Tall Torch/Materials/TorchFloor_standardSurface1_BaseColor_sRGB.1001.mat
+  artifactKey: Guid(92154fb3b6038234a86424a168d3fa3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Torch/Tall Torch/Materials/TorchFloor_standardSurface1_BaseColor_sRGB.1001.mat using Guid(92154fb3b6038234a86424a168d3fa3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4b4d52e0eae696e7fa529009de20404f') in 0.020174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy Skybox FREE/Scenes/Textures (Terrain)/Texure_Rock_Normal.png
+  artifactKey: Guid(758b1fc63752a1e44957111d5af9b00c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Scenes/Textures (Terrain)/Texure_Rock_Normal.png using Guid(758b1fc63752a1e44957111d5af9b00c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2419646e89625a0b090c96beb728ea98') in 0.024572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day.png
+  artifactKey: Guid(53129b20db5c19c4a9f4fcd4efd08b96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Day.png using Guid(53129b20db5c19c4a9f4fcd4efd08b96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2a4784f9e3b0a77aa0e4866f4bbb125a') in 0.023500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Rainy.mat
+  artifactKey: Guid(7a8675eb396637d43b4ba0a69cc715a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Rainy.mat using Guid(7a8675eb396637d43b4ba0a69cc715a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a350e0fd139e1dc20bca60c90799a985') in 0.017987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3D Models/Cracked Wall Textures/Cracked 1/Materials/Tex Plane_standardSurface1_BaseColor_sRGB.1001.mat
+  artifactKey: Guid(88f97244081a4bd4f8e26e78f49c77e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Cracked Wall Textures/Cracked 1/Materials/Tex Plane_standardSurface1_BaseColor_sRGB.1001.mat using Guid(88f97244081a4bd4f8e26e78f49c77e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '65dac7f5b69c45505a93f750a71c6099') in 0.024353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Rainy.png
+  artifactKey: Guid(16d9adf6c3330a04791bfc80481167c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Rainy.png using Guid(16d9adf6c3330a04791bfc80481167c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dd90e29abf7e1c416aa84dda2ee4110c') in 0.022774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/3D Models/Animations/AllAnimations/Gladiator and MC/Active Gladiator/GladiatorACTIVEPrefab.prefab
+  artifactKey: Guid(c4d6472c32a0d0f4ebfc910a0252af4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Animations/AllAnimations/Gladiator and MC/Active Gladiator/GladiatorACTIVEPrefab.prefab using Guid(c4d6472c32a0d0f4ebfc910a0252af4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+The AnimationClip 'Gladiator_Idle' used by the Animation component 'GladiatorACTIVEPrefab' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.GameObject> (string)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2087]
+
+ -> (artifact id: '7558f8b43e82762f4605d0333ce613dd') in 0.020362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 101
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Models/Temple Facade/Materials/Temple_standardSurface1_Normal_Raw.1001.mat
+  artifactKey: Guid(b86cf383a35c02c478c5a02e06312e35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Temple Facade/Materials/Temple_standardSurface1_Normal_Raw.1001.mat using Guid(b86cf383a35c02c478c5a02e06312e35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '13ae65f34fd077a741589c75e8f41c8c') in 0.019165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night_Moonless.mat
+  artifactKey: Guid(48d4f62e2d5af1643a431d2f4b07ccbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night_Moonless.mat using Guid(48d4f62e2d5af1643a431d2f4b07ccbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a4b378d02bc39d8321090194180e4dce') in 0.018863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/2_lamp_support/lamp_support.obj
+  artifactKey: Guid(99ec90697d468784f8656608c608f4d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/2_lamp_support/lamp_support.obj using Guid(99ec90697d468784f8656608c608f4d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'acbf810517aca118395d92e2e6b38685') in 0.020583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/Scene/Demo.unity
+  artifactKey: Guid(cfb21ce4ea44523419c6256d1577f047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/Scene/Demo.unity using Guid(cfb21ce4ea44523419c6256d1577f047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c6fa3e58e8bbeb8f61eca3c3a587e375') in 0.013799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Models/Animations/AllAnimations/Gladiator and MC/Static Glad/STATIC gladiator Controller.controller
+  artifactKey: Guid(c22e20ed79270804aaa99c619d752340) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Animations/AllAnimations/Gladiator and MC/Static Glad/STATIC gladiator Controller.controller using Guid(c22e20ed79270804aaa99c619d752340) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4eaa15763de4d5de4097d2ed152b9f1d') in 0.014892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/lamp/-color.png
+  artifactKey: Guid(d9172b45c82368f418a750f2b669619b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/lamp/-color.png using Guid(d9172b45c82368f418a750f2b669619b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3529b2300d9c176f2f95afc6ab2ec252') in 0.020589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/1_lamp_support/lamp_support.obj
+  artifactKey: Guid(90abd46582a16124d9af19926a217b26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/1_lamp_support/lamp_support.obj using Guid(90abd46582a16124d9af19926a217b26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '02e855e84488e1f7d2e1a058d1cd565a') in 0.022069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/2_lamp_support/Material.001-color.png
+  artifactKey: Guid(d3d2119ef23a8d94ab58e5b45e732b73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/2_lamp_support/Material.001-color.png using Guid(d3d2119ef23a8d94ab58e5b45e732b73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89857dc5b6430fad949d77b62332b092') in 0.022901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D Models/Animations/AllAnimations/Gladiator and MC/Static Glad/Static Gladiator anim.fbx
+  artifactKey: Guid(2999263017404964997c6463de886a8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Animations/AllAnimations/Gladiator and MC/Static Glad/Static Gladiator anim.fbx using Guid(2999263017404964997c6463de886a8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'abc4cce335a2f22bac6237e1b1d0c55f') in 0.033545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/1_lamp_support/Material-metallic.png
+  artifactKey: Guid(7240ab490f805184891c45afd6894661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/1_lamp_support/Material-metallic.png using Guid(7240ab490f805184891c45afd6894661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'af0da7fe2a08840ad27fc7994e24a204') in 0.027652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/1_lamp_support/Material-color.png
+  artifactKey: Guid(fcd241daab3bcec459375ffb2790491c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/1_lamp_support/Material-color.png using Guid(fcd241daab3bcec459375ffb2790491c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd991435d70b448c70b7124d2766ea8e7') in 0.028148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/1_lamp_support/Material.mat
+  artifactKey: Guid(3c8b3f0ef80106c44af71948d5d1d192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/1_lamp_support/Material.mat using Guid(3c8b3f0ef80106c44af71948d5d1d192) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c87616ebd7c0288c7341c85509b6502b') in 0.073737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.mat
+  artifactKey: Guid(8426cf3d3939a7d419671f3d5c269c0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Rainy.mat using Guid(8426cf3d3939a7d419671f3d5c269c0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '12b1768741882de7ccac82950659893f') in 0.022746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.png
+  artifactKey: Guid(ad211dc5ae928ef40b568736df2f62b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Rainy.png using Guid(ad211dc5ae928ef40b568736df2f62b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0b05ec540e3d4b2df23d7ab959b7b05') in 0.031233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunrise.png
+  artifactKey: Guid(5e24d3ca061bf2b48a3e334c5cc4eab1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunrise.png using Guid(5e24d3ca061bf2b48a3e334c5cc4eab1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f7824100d1df2f2f35d42efeeaf0548e') in 0.048126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.mat
+  artifactKey: Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.mat using Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7e25250550560e4b54f4a4c0ef21caa6') in 0.033110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.png
+  artifactKey: Guid(f4d685236ef56ef41a4ddef00508a2c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS003/FS003_Snowy.png using Guid(f4d685236ef56ef41a4ddef00508a2c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6741aa4d7a1a7d4815d704897297f6a1') in 0.035435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/3D Models/Animations/AllAnimations/Gladiator and MC/MC arms/arms controller.controller
+  artifactKey: Guid(ec65a60e238ef7445a0388357ecb045f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Animations/AllAnimations/Gladiator and MC/MC arms/arms controller.controller using Guid(ec65a60e238ef7445a0388357ecb045f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4fbfec6f380c8b8bb3a252b9f0142437') in 0.018364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3D Models/Torch/Tall Torch/TorchFloor.fbx
+  artifactKey: Guid(568d249d3c11c58458f1fd00aa6e17b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Torch/Tall Torch/TorchFloor.fbx using Guid(568d249d3c11c58458f1fd00aa6e17b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ced4cf22a9968f61b2cf3c7e190f402c') in 0.031371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.png
+  artifactKey: Guid(0e981c5218a661d479182696be5f084f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04_Sunless.png using Guid(0e981c5218a661d479182696be5f084f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cb6f60c7455719f7d9232e3aea61520a') in 0.021121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.png
+  artifactKey: Guid(a64d2362d418d194f91274685fb10faf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_01.png using Guid(a64d2362d418d194f91274685fb10faf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c24418f01202efd24e39d794e6eac05b') in 0.020765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3D Models/Materials/Materials/Tex Plane_standardSurface1_BaseColor_sRGB.1001 2.mat
+  artifactKey: Guid(63f7ffc26edd6a4409aea9f01eb5234d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Materials/Tex Plane_standardSurface1_BaseColor_sRGB.1001 2.mat using Guid(63f7ffc26edd6a4409aea9f01eb5234d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce3bb40d1276c8cb17ffc1bc41f51d7d') in 0.017222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.mat
+  artifactKey: Guid(42dc3b9b0dd2040fc9ef0182fdea0e50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.mat using Guid(42dc3b9b0dd2040fc9ef0182fdea0e50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b39a31ca1ad0981d1982107da87b0ae8') in 0.018497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/3D Models/Materials/Tex Tile_standardSurface1_Normal_Raw.1001.png
+  artifactKey: Guid(654a3a88a55170449838d1ecd428daee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Tex Tile_standardSurface1_Normal_Raw.1001.png using Guid(654a3a88a55170449838d1ecd428daee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ca75070febb0e31a7127f133fb343030') in 0.022094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.mat
+  artifactKey: Guid(97fca95f33987e548be9dd7c03cb1a96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day_Sunless.mat using Guid(97fca95f33987e548be9dd7c03cb1a96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '445914433ba3cafc96605d53a1d3656c') in 0.024040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3D Models/Materials/Tex Plane_standardSurface1_OcclusionRoughnessMetallic_Raw.1001 2.png
+  artifactKey: Guid(c700592fccce10a4cbd1477137571aff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Tex Plane_standardSurface1_OcclusionRoughnessMetallic_Raw.1001 2.png using Guid(c700592fccce10a4cbd1477137571aff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0200cb7d4d9d2bfa876c5ef1ed57eb54') in 0.025926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/3D Models/Cracked Wall Textures/Cracked 2/Materials/Tex Plane_standardSurface1_BaseColor_sRGB.1001.mat
+  artifactKey: Guid(f1b2746f20fd3ef40ba1c13a40426fd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Cracked Wall Textures/Cracked 2/Materials/Tex Plane_standardSurface1_BaseColor_sRGB.1001.mat using Guid(f1b2746f20fd3ef40ba1c13a40426fd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d429534e719a1520337b4a4bc779b66') in 0.021430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D Models/FlowerPot/Flower_standardSurface1_OcclusionRoughnessMetallic.png
+  artifactKey: Guid(19aaddbfb654f75479557509b5cd59b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/FlowerPot/Flower_standardSurface1_OcclusionRoughnessMetallic.png using Guid(19aaddbfb654f75479557509b5cd59b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '36b72324203f2480d308af4acbd03753') in 0.032197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.mat
+  artifactKey: Guid(24d76106ebc1bd947a3fed862f899b82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Snowy.mat using Guid(24d76106ebc1bd947a3fed862f899b82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '824ef37ee95611e7695e42e78f3be306') in 0.020979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04.mat
+  artifactKey: Guid(1700716a8dd8948cf8c66ea34a2786d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04.mat using Guid(1700716a8dd8948cf8c66ea34a2786d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0b95cbe1a1fd403a725fb9ee685a75e5') in 0.020610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01_Sunless.mat
+  artifactKey: Guid(d48a7646f5d0547e889733d84b50cb9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01_Sunless.mat using Guid(d48a7646f5d0547e889733d84b50cb9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6b256caa040f1287790b4cb4efba5ee8') in 0.023315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/2_lamp_support/Material.mat
+  artifactKey: Guid(52f822d9060a4f445b1ebbc7205b8c67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/2_lamp_support/Material.mat using Guid(52f822d9060a4f445b1ebbc7205b8c67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd215c6fe8c68a82964842961c8530689') in 0.020564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day.png
+  artifactKey: Guid(163214a3accfb80488d2e6a27f45b743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Day.png using Guid(163214a3accfb80488d2e6a27f45b743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3b994448ce5a874e814231fadcc9b9e6') in 0.022912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Models/Materials/Materials/GraniteWall_basecolor.mat
+  artifactKey: Guid(6859c8e4ad91d7940aca1970fafc7f19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Materials/Materials/GraniteWall_basecolor.mat using Guid(6859c8e4ad91d7940aca1970fafc7f19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '27200a729596151b7dc4caae8170c874') in 0.016208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night.png
+  artifactKey: Guid(134608dbb5b4b3e458e3567b13281134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS013/FS013_Night.png using Guid(134608dbb5b4b3e458e3567b13281134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '48a194dfeb4fc25d315425b8753552d9') in 0.025070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03.mat
+  artifactKey: Guid(33ab377b49aa14f6fae6e5bac230a5d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03.mat using Guid(33ab377b49aa14f6fae6e5bac230a5d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '46d289820cae5c0a26b593e7b043c82e') in 0.018017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(32a4d36015759ce41ab1f5cb51ddb4a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Player.prefab using Guid(32a4d36015759ce41ab1f5cb51ddb4a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '896490986cc656c29bd8c31597ecf234') in 0.015339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.png
+  artifactKey: Guid(89878140665978f4f9f27f55a61fb12d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Sunset.png using Guid(89878140665978f4f9f27f55a61fb12d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '75cb35e6e22cb223167e1f067621897f') in 0.020887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.png
+  artifactKey: Guid(0ffe8585761fae642bd4d7d85819a5f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Snowy.png using Guid(0ffe8585761fae642bd4d7d85819a5f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '47773516f28238ddb6ea49590c252007') in 0.029520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/lamp/-roughness.png
+  artifactKey: Guid(78ec59876c6e5474cb8c66b3b0e64cf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/lamp/-roughness.png using Guid(78ec59876c6e5474cb8c66b3b0e64cf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '70065dc4f3972680efa506a881b30819') in 0.023176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(bc3c3ff4221f11747a47374f8ed4ba79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Scene 1.unity using Guid(bc3c3ff4221f11747a47374f8ed4ba79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3da7462e4f3471022f3d5447e34c62e6') in 0.012419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/lamp/lamp_.obj
+  artifactKey: Guid(c7ee10a26a67e01419e4e3d39d4d2b58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Finished/3D-Models/DeKinderspelen/3D - Wall Lamp/3D - Wall Lamp/lamp/lamp_.obj using Guid(c7ee10a26a67e01419e4e3d39d4d2b58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '688c69ad34f54f54423365fdbb969f5c') in 0.027036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.png
+  artifactKey: Guid(88c4ef1770f6491408e50fd96829b1b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS002/FS002_Sunset.png using Guid(88c4ef1770f6491408e50fd96829b1b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd3f5b37fa220c777b1c070e18a2780d3') in 0.020343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Switching render pipeline 00000000000000000000000000000000 -> 262cbeadf3c02ca469dd7602537a2df8
+Refreshing native plugins compatible for Editor in 4.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (4.7 MB). Loaded Objects now: 5557.
+Memory consumption went from 115.9 MB to 111.1 MB.
+Total: 17.888200 ms (FindLiveObjects: 0.871800 ms CreateObjectMapping: 0.509100 ms MarkObjects: 12.811900 ms  DeleteObjects: 3.694200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

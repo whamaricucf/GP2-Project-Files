@@ -28,6 +28,7 @@ public class SceneLoader : MonoBehaviour
             firstCam.SetActive(false);
             player.SetActive(true);
             titleCanvas.SetActive(false);
+
         }
     }
     void OnDisable()
@@ -45,7 +46,7 @@ public class SceneLoader : MonoBehaviour
     {
         if (!sceneSO.firstRun)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetButtonDown("Submit"))
             {
                 sceneSO.firstRun = true;
                 LoadScene(1);

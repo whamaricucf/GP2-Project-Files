@@ -8,7 +8,7 @@ public class Music : MonoBehaviour
 
     private AudioSource gAudio;
 
-    public AudioClip MainMenu, GameOver, ChaseTheme;
+    public AudioClip MainMenu, GameOver, ChaseTheme, Arrival, Victory;
 
     public AngelAI AI;
     public Interactor interactor;
@@ -40,6 +40,16 @@ public class Music : MonoBehaviour
             gAudio.clip = GameOver;
             gAudio.Play();
         }
+        if (scene.name == "Scene 1" && sceneSO.firstRun == true)
+        {
+            gAudio.clip = Arrival;
+            gAudio.Play();
+        }
+        if (scene.name == "Victory")
+        {
+            gAudio.clip = Victory;
+            gAudio.Play();
+        }
     }
 
     void OnDisable()
@@ -51,6 +61,19 @@ public class Music : MonoBehaviour
             gAudio.Stop();
         }
     }
+
+    public void StopAudio()
+    {
+        while (gAudio.volume > 0)
+        {
+            gAudio.volume -= 0.1f * Time.deltaTime;
+            if (gAudio.volume == 0)
+            {
+                gAudio.Stop();
+            }
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {

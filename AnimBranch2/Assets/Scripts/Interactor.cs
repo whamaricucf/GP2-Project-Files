@@ -17,6 +17,7 @@ public class Interactor : MonoBehaviour
     public Material sunset, night, sunrise;
     private Skybox skybox;
     public TextMeshProUGUI hintText;
+    public Music music;
 
     // Start is called before the first frame update
     void OnEnable()
@@ -41,10 +42,11 @@ public class Interactor : MonoBehaviour
             Debug.Log(hit.collider.name);
             if (hit.collider.name == "Medusa")
             {
+                music.StopAudio();
                 Debug.Log("Press E to Interact");
                 hintText.text = "Press E to Pickup Medusa's Head";
                 onInteract = onInteractMedusa;
-                if (Input.GetKeyDown(KeyCode.E))
+                if (Input.GetButtonDown("Interact"))
                 {
                     onInteract.Invoke();
                     beforePickup.SetActive(false);
@@ -63,7 +65,7 @@ public class Interactor : MonoBehaviour
                 {
                     Debug.Log("Press E to Interact");
                     hintText.text = "Press E to Destroy Medusa's Head";
-                    if (Input.GetKeyDown(KeyCode.E))
+                    if (Input.GetButtonDown("Interact"))
                     {
                         onInteract.Invoke();
                         beforePickup.SetActive(true);

@@ -48,6 +48,8 @@ MonoBehaviour:
   MainMenu: {fileID: 8300000, guid: 8379575c5f7f82545adceda0cc766ea1, type: 3}
   GameOver: {fileID: 8300000, guid: 8ccbefc0f7f592947acde15b9e6e8534, type: 3}
   ChaseTheme: {fileID: 8300000, guid: 1a92bc421d26d5340b80de0666c0cef1, type: 3}
+  Arrival: {fileID: 8300000, guid: 39dfa6f9cf5bf9d4e93e2e9e0ecffd56, type: 3}
+  Victory: {fileID: 8300000, guid: 241cac1376902dc40adae30aaed4b043, type: 3}
   AI: {fileID: 0}
   interactor: {fileID: 0}
   sceneSO: {fileID: 11400000, guid: dbe4adaf11e35c74c892299b02b0d217, type: 2}

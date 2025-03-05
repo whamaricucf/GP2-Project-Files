@@ -9,6 +9,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 
 
@@ -47,7 +49,6 @@ public class BasicFPCC : MonoBehaviour
     public KeyCode keyJump            = KeyCode.Space;         // Space to Jump
     public KeyCode keySlide           = KeyCode.C;             // C to Slide (only when running)
     public KeyCode keyToggleCursor    = KeyCode.BackQuote;     // ` to toggle lock cursor (aka [~] console key)
-    public KeyCode keyPause           = KeyCode.Escape;
 
     // Input Variables that can be assigned externally
     // the cursor can also be manually locked or freed by calling the public void SetLockCursor( bool doLock )
@@ -130,6 +131,10 @@ public class BasicFPCC : MonoBehaviour
     public NavMeshAgent angelAI;
     public GameObject menuCanvas, settingsCanvas;
 
+    private GameObject[] menuButtons, settingsButtons;
+    public Transform mButton, sButton;
+    private int curButton;
+
     [SerializeField] private SceneSO sceneSO;
     void Awake()
     {
@@ -174,11 +179,15 @@ public class BasicFPCC : MonoBehaviour
         mouseSensitivityX = sceneSO.sensitivity;
         mouseSensitivityY = sceneSO.sensitivity;
         RefreshCursor();
+        menuButtons = new GameObject[mButton.childCount];
+        for (int i = 0; i < mButton.childCount; i++) { menuButtons[i] = mButton.GetChild(i).gameObject; }
+        settingsButtons = new GameObject[sButton.childCount];
+        for (int i = 0; i < sButton.childCount; i++) { settingsButtons[i] = sButton.GetChild(i).gameObject; }
     }
 
     void Pause()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetButtonDown("Start") || Input.GetButtonDown("Back"))
         {
             if (!paused || menuCanvas.activeInHierarchy == true)
             {
@@ -191,15 +200,33 @@ public class BasicFPCC : MonoBehaviour
                 settingsCanvas.SetActive(false);
                 menuCanvas.SetActive(true);
             }
+            EventSystem.current.SetSelectedGameObject(null);
+        }
+        if (menuCanvas.activeInHierarchy == true)
+        {
+            ButtonSwapper(menuButtons);
+        }
+        if (settingsCanvas.activeInHierarchy == true)
+        {
+            ButtonSwapper(settingsButtons);
         }
     }
 
     public void Resume()
     {
-        paused = false;
-        SetLockCursor(false);
-        cursorActive = false;
-        menuCanvas.SetActive(false);
+        paused = !paused;
+        ToggleLockCursor();
+        menuCanvas.SetActive(paused);
+    }
+
+    void ButtonSwapper(GameObject[] buttons)
+    {
+        if (buttons.Length == 0) return;
+
+        if (EventSystem.current.currentSelectedGameObject == null)
+        {
+            EventSystem.current.SetSelectedGameObject(buttons[0]);
+        }
     }
 
     void ProcessInputs()
